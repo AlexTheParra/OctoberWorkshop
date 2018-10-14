@@ -5,9 +5,9 @@
 body, html {
     padding: 0;
     margin: 0;
-    --primary: #ff80ab;
-    --dark: #c94f7c;
-    --light: #ffb2dd;
+    --primary: 	rgb(255, 128, 171);
+    --dark: 	rgb(255, 178, 221);
+    --light:    rgb(201, 79, 124);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -80,6 +80,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 #flex-tape-container p {
     color: white;
+}
+
+#flex-tape-container a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+#flex-tape-container a:hover {
+    color: rgba(var(--dark), .8);
 }
 
 img {
